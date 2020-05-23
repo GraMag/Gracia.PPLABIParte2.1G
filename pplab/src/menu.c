@@ -4,8 +4,7 @@
 #include <ctype.h>
 #include "menu.h"
 #include "validar.h"
-#include "trabajo.h"
-#include "servicio.h"
+
 /**
  * @fn char menu()
  * @brief Menu principal. Ofrece las opciones de ABM y listados.

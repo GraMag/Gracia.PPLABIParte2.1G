@@ -179,7 +179,7 @@ void marcaMasElegida (eAuto tutu[], int tam, eMarca marca[], int tamM)
 	{
 		if(masElegida[i].id == max)
 		{
-			printf("La marca mas elegida es %s", masElegida[0].descripcion);
+			printf("La marca mas elegida es %s\n", masElegida[i].descripcion);
 		}
 	}
 }
