@@ -58,8 +58,7 @@ int infoMenu()
 			"3.- Informar el o los autos más viejos\n"
 			"4.- Mostrar un listado de los autos separados por marca\n"
 			"5.- Elegir un color y una marca y contar cuantos autos hay de ese color y esa marca\n"
-			"6.- Mostrar la o las marcas más elegidas por los clientes.\n"
-			"7.- Trabajos realizados a un auto");
-	num = inputInt("informe", 1, 7);
+			"6.- Mostrar la o las marcas más elegidas por los clientes.\n");
+	num = inputInt("informe", 1, 6);
 	return num;
 }
